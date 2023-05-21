@@ -1,0 +1,40 @@
+  // 主题设置
+    "workbench.colorCustomizations": { //覆盖当前所选颜色主题的颜色
+        "editor.background": "#222222", //编辑器背景色
+        "editor.selectionBackground": "#5a5f21", //用户选中代码段的颜色 
+        "editor.findMatchBackground": "#ff0000", //当前搜索匹配的颜色
+        "editor.findMatchHighlightBackground": "#fa0a01", //其他搜索匹配项的颜色
+        "editor.findRangeHighlightBackground": "#ff9900", //限制搜索范围的颜色
+        "editor.lineHighlightBackground": "#3a2f2f", //光标所在行高亮内容的背景颜色
+        "editor.lineHighlightBorder": "#686868" //光标所在行四周边框的背景颜色
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#a2a7a4", // 注释
+        "keywords": "#cff10a", // 关键字
+        "variables": "#06ee19", // 变量名
+        "strings": "#07ffd6", // 字符串
+        "functions": "#f5b607", // 函数名
+        "numbers": "#7f3cfa" // 数字
+    },
+
+
+    "background.enabled": true,
+"background.useDefault": false,
+"background.customImages": [
+"file:///D:/图片/Saved Pictures/003.jpg"
+],
+"background.style": {
+"content": "''",
+"pointer-events": "none",
+"position": "absolute",
+"z-index": "99999",
+"width": "100%",
+"height": "100%",
+"background-position": "center",
+"background-repeat": "no-repeat",
+"background-size": "100%,100%",
+"opacity": 0.1
+},
+
+
+  
